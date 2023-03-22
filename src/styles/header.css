@@ -1,0 +1,133 @@
+.header {
+  position: relative;
+  background-color: #f4f9e2;
+
+  width: 100%;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1130px;
+
+  margin: 0 auto;
+  padding-top: 27px;
+  margin-bottom: 100px;
+}
+
+.header__logo {
+  font-family: 'PT Sans';
+  font-size: 24px;
+  font-weight: bold;
+
+  color: #62d0df;
+  letter-spacing: -0.035em;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 264px;
+}
+
+.header__link {
+  color: #22356f;
+  text-decoration: none;
+
+  font-family: 'PT Sans';
+  font-size: 18px;
+}
+
+.header__button {
+  width: 150px;
+  height: 50px;
+
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  border: 0;
+
+  cursor: pointer;
+}
+
+.header__button--contact {
+  z-index: 9999;
+  background: #62d0df;
+  border-radius: 50px;
+}
+
+.header__button--contact:hover {
+  background: white;
+  color: #62d0df;
+}
+
+.header__button--who {
+  background: #f9b640;
+}
+
+.header__button--who:hover {
+  color: #f9b640;
+  background: white;
+}
+
+.header__preview {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.header__title {
+  width: 484px;
+
+  margin: 0;
+  margin-top: 40px;
+
+  font-family: 'PT Sans';
+  font-size: 48px;
+  color: #22356f;
+
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+  line-height: 59px;
+}
+
+.header__text {
+  width: 484px;
+
+  margin: 0;
+  margin-top: 75px;
+
+  font-family: 'PT Sans';
+  font-size: 24px;
+  line-height: 47px;
+  color: #22356f;
+}
+
+.header__container {
+  margin-top: 45px;
+  padding-bottom: 33px;
+}
+
+.header__button-link {
+  font-family: 'PT Sans';
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fab63e;
+}
+.header__button-link:hover {
+  color: #22356f;
+}
+
+.header__image {
+  position: absolute;
+  top: 45px;
+  right: 0;
+
+  width: 750px;
+  height: 680px;
+  background-image: url(../images/header-background.png);
+  background-position: center;
+  background-size: 920px;
+}
